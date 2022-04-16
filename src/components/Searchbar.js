@@ -24,7 +24,7 @@ export default function Searchbar ({onSubmit}) {
     return (
         <header className="Searchbar">
             <form className="SearchForm" onSubmit={handleSubmit}>
-                <Button onClick={handleSubmit}>Search</Button>
+                <Button type='button' onClick={handleSubmit}>Search</Button>
                 <input
                     className="SearchForm-input"
                     type="text"
