@@ -2,6 +2,7 @@ import ImageGalleryItem from './ImageGalleryItem'
 import '../styles.css';
 
 
+
 const ImageGallery = ({onClick, hits, activeIdx}) => {
     
     return (
@@ -16,3 +17,4 @@ const ImageGallery = ({onClick, hits, activeIdx}) => {
 }
 
 export default ImageGallery
+
